@@ -562,6 +562,8 @@ FodyWeavers.xsd
 
 ### Project Specific Files ###
 build/
-config.json
+databases/*
+!databases/README.md
 models/*
 !models/model.default.json
+config.json
